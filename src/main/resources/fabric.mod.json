@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "autowystaw",
+  "version": "${version}",
+  "name": "AutoWystaw",
+  "description": "Automatycznie wystawia Splash Potion of Weakness (04:00) z ekwipunku.",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["pl.autowystaw.AutoWystawClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
